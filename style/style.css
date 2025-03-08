@@ -1,0 +1,72 @@
+@import "fonts.css";
+
+html {
+    /* keeps anchor points from opening behind the navbar */
+    scroll-padding-top: 7rem;
+}
+
+header {        /*everything in the nav bar*/
+    font-family: sage;
+    font-weight: bolder;
+    /* background: #312f2e; */
+    /* color: #ffffff; */
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-weight: 50; */
+    /* font-size: ; */
+    margin: 0;
+    padding: 0;
+    color: #312f2e;
+    background-color: #f4f8e7;
+}
+
+.about h2 {
+    font-family: sage;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+footer {
+    background: rgb(231, 240, 205);
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #ccecb8;
+}
+
+/* header */
+.navbar h1 {
+    margin-left: 40px;
+    font-size: xx-large;
+    color:#4e4a48;
+}
+
+/* navbar content */
+.menu a {
+    margin-right: 20px;
+    font-family: sage;
+    color: #4e4a48;
+    text-decoration: none;
+}
+
+/* highlight link when hovering */
+.menu a:hover {
+    color: #596754;
+}
